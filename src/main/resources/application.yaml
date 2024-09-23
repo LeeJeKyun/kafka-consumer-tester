@@ -1,0 +1,10 @@
+spring:
+  application:
+  name: kafka-consumer-tester
+  kafka:
+    consumer:
+      bootstrap-servers: 10.10.20.80:30243
+kafka:
+  topic: common.weather.save
+server:
+  port: 8081
